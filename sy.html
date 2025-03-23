@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapters</title>
+    <style>
+      /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Title & Subtitle */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Chapters Box */
+.chapters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Emoji Icon */
+.b {
+    font-size: 2rem;
+}
+
+/* Links */
+.box a {
+    display: block;
+    font-size: 1.2rem;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box a:hover {
+    color: #0056b3;
+}
+
+/* Description */
+.box p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📖 Course Chapters</h1>
+        <p class="subtitle">Explore the journey of learning with these interactive chapters.</p>
+
+        <div class="chapters">
+            <div class="box">
+                <span class="b">📕</span>
+                <a href="ch/page.html">Chapter 1</a>
+                <p>example: laws of motion</p>
+            </div>
+            <div class="box">
+                <span class="b">📗</span>
+                <a href="ch/page.html">Chapter 2</a>
+                <p>example: laws of motion</p>
+            </div>
+            <div class="box">
+                <span class="b">📘</span>
+                <a href="ch/page.html">Chapter 3</a>
+                <p>example: laws of motiont</p>
+            </div>
+            <div class="box">
+                <span class="b">📙</span>
+                <a href="ch/page.html">Chapter 4</a>
+                <p>example: laws of motion</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
